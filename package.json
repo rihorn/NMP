@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/rihorn/NMP/issues"
   },
-  "homepage": "https://github.com/rihorn/NMP#readme"
+  "homepage": "https://github.com/rihorn/NMP#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
 }
