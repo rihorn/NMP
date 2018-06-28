@@ -1,0 +1,22 @@
+{
+  "name": "esrigeojson",
+  "version": "1.0.0",
+  "description": "npm package to convert json to esri geojson",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rihorn/NMP.git"
+  },
+  "keywords": [
+    "esri"
+  ],
+  "author": "Ian Horn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rihorn/NMP/issues"
+  },
+  "homepage": "https://github.com/rihorn/NMP#readme"
+}
