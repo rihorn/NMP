@@ -1,1 +1,1 @@
-ogr2ogr -append -overwrite -nlt geometrycollection  -a_srs EPSG:3089 -progress -f GeoJSON u:/NPM/EsriToGeoJSON/working-files/shapes.json OCI:biotics_dlink/fAgaB5gePrER@biotics5:SOURCE_FEATURE_PRE_LINE -sql "SELECT * FROM SF_GEOMETRYCOLLECTION_VW"
+ogr2ogr -append -overwrite -nlt GEOMETRY  -s_srs EPSG:4326 -t_srs EPSG:4326 -progress -f GeoJSON U:/NPM/working-files/shapes.json OCI:biotics_dlink/fAgaB5gePrER@biotics5:SOURCE_FEATURE_PRE_LINE -sql "SELECT * FROM SF_GEOMETRYCOLLECTION_VW"
